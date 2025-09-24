@@ -1,12 +1,6 @@
-interface ButtonProps {
-    buttonLabel: string
-    buttonSize?: string
-    buttonBackgroundColor?: 'red' | 'blue' | 'orange' | 'green'
-    action?: () => void
-  }
-  
-  
-  const Button = ({ buttonLabel, buttonSize, buttonBackgroundColor, action }: ButtonProps) => {
+import { ButtonProps } from "@/interfaces";
+
+const Button = ({ buttonLabel, buttonSize, buttonBackgroundColor, action }: ButtonProps) => {
   
     const backgroundColorClass = buttonBackgroundColor ? {
       red: 'bg-red-500',
