@@ -1,6 +1,6 @@
 import Button from "@/components/common/Button";
 import { useRouter } from "next/router";
-import { PageRouteProps } from "@/interfaces";
+import { PageRouteProps } from "@/interface";
 import Header from "@/components/layouts/Header";
 import Footer from "@/components/layouts/Footer";
 
